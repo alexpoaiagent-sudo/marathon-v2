@@ -10,9 +10,9 @@ next_review: "2026-03-15"
 
 ## Как ориентироваться в репозитории
 
-👤 **Участникам марафона** → [materials/participants](materials/participants/)  
-🧭 **Наставникам** → [materials/mentor](materials/mentor/)  
-🧠 **Методология** → [metamaterial](metamaterial/)  
+👤 **Участникам марафона** → [materials/participants](tree/main/materials/participants/)  
+🧭 **Наставникам** → [materials/mentor](tree/main/materials/mentor/)  
+🧠 **Методология** → [metamaterial](tree/main/metamaterial/)  
 🏗 **Архитектура** → [ARCHITECTURE.md](ARCHITECTURE.md)
 
 Программа саморазвития для тех, кто хочет выйти из застревания и начать системно двигаться вперёд.
