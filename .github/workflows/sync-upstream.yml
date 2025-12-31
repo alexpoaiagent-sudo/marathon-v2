@@ -1,0 +1,37 @@
+name: Sync from upstream
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 */6 * * *"  # каждые 6 часов (UTC)
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream and fetch
+        run: |
+          git remote add upstream https://github.com/alexpoaiagent-sudo/marathon-v2.git || true
+          git fetch upstream
+
+      - name: Hard reset main to upstream/main
+        run: |
+          git reset --hard upstream/main
+
+      - name: Push to fork
+        run: |
+          git push origin main --force
