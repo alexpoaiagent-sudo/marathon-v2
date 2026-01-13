@@ -57,18 +57,18 @@ metamaterial/
 materials/
 ├── participants/                   # Материалы для участников
 │   ├── README.md
-│   ├── 01_questionnaire.md         # Опросник
-│   ├── 02_meeting_1.md             # Встреча 1
-│   ├── 03_meeting_2.md             # Встреча 2
-│   ├── 04_meeting_3.md             # Встреча 3
-│   └── 05_meeting_4.md             # Встреча 4
+│   ├── 00_questionnaire.md         # Опросник
+│   ├── 01_meeting_1.md             # Встреча 1
+│   ├── 02_meeting_2.md             # Встреча 2
+│   ├── 03_meeting_3.md             # Встреча 3
+│   └── 04_meeting_4.md             # Встреча 4
 └── mentor/                         # Материалы для наставников
     ├── README.md
     ├── 01_questionnaire_mentor.md  # Опросник (методичка)
-    ├── 02_meeting_1_mentor.md      # Встреча 1 (методичка)
-    ├── 03_meeting_2_mentor.md      # Встреча 2 (методичка)
-    ├── 04_meeting_3_mentor.md      # Встреча 3 (методичка)
-    ├── 05_meeting_4_mentor.md      # Встреча 4 (методичка)
+    ├── 01_meeting_1_mentor.md      # Встреча 1 (методичка)
+    ├── 02_meeting_2_mentor.md      # Встреча 2 (методичка)
+    ├── 03_meeting_3_mentor.md      # Встреча 3 (методичка)
+    ├── 04_meeting_4_mentor.md      # Встреча 4 (методичка)
     └── methodology/                # Методологические материалы
 ```
 
@@ -76,9 +76,9 @@ materials/
 
 ## Навигация для участников
 
-1. Начинают с **materials/participants/01_questionnaire.md** и определяют состояние
+1. Начинают с **materials/participants/00_questionnaire.md** и определяют состояние
 2. Сверяются с **metamaterial/понятия.md**, чтобы говорить на одном языке
-3. Готовятся к встречам, двигаясь по файлам в **materials/participants/** (02-05_meeting)
+3. Готовятся к встречам, двигаясь по файлам в **materials/participants/** (01-04_meeting)
 4. Пользуются готовыми шаблонами из **metamaterial/participants/templates/**
 5. Изучают методологию в **metamaterial/** (состояния-и-методы, минимальные-практики)
 
@@ -87,7 +87,7 @@ materials/
 ## Навигация для наставников
 
 - Базовая ориентация — **materials/mentor/README.md**
-- Сценарии встреч и методички лежат в **materials/mentor/** (01-05_meeting_mentor)
+- Сценарии встреч и методички лежат в **materials/mentor/** (01-04_meeting_mentor)
 - Инструменты диагностики и промты — в **metamaterial/mentor/**
 - Методологическая база — в **metamaterial/** (понятия, состояния, источник-правды)
 

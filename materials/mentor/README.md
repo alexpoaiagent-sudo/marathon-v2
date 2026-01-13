@@ -61,7 +61,7 @@
 - Подготовка к первой встрече
 - Использование ИИ для диагностики
 
-**Параллельный материал участника:** [01_questionnaire.md](../participants/01_questionnaire.md)
+**Параллельный материал участника:** [00_questionnaire.md](../participants/00_questionnaire.md)
 
 **Инструмент:** [Промт для ИИ-агента](../../metamaterial/mentor/prompt-for-ai-agent.md)
 
